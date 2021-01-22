@@ -13,6 +13,9 @@
 		CDD25F6025BA0C7A00498C08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD25F5F25BA0C7A00498C08 /* Preview Assets.xcassets */; };
 		CDD25F6B25BA0C7A00498C08 /* CarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD25F6A25BA0C7A00498C08 /* CarCustomiserTests.swift */; };
 		CDD25F7625BA0C7A00498C08 /* CarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD25F7525BA0C7A00498C08 /* CarCustomiserUITests.swift */; };
+		CDD25F8725BA0EE300498C08 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD25F8625BA0EE300498C08 /* Car.swift */; };
+		CDD25F8B25BA0F7900498C08 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD25F8625BA0EE300498C08 /* Car.swift */; };
+		CDD25F9025BAD5CD00498C08 /* StarterCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD25F8F25BAD5CD00498C08 /* StarterCars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		CDD25F7125BA0C7A00498C08 /* CarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD25F7525BA0C7A00498C08 /* CarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITests.swift; sourceTree = "<group>"; };
 		CDD25F7725BA0C7A00498C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD25F8625BA0EE300498C08 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CDD25F8F25BAD5CD00498C08 /* StarterCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterCars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +105,8 @@
 				CDD25F5C25BA0C7A00498C08 /* Assets.xcassets */,
 				CDD25F6125BA0C7A00498C08 /* Info.plist */,
 				CDD25F5E25BA0C7A00498C08 /* Preview Content */,
+				CDD25F8625BA0EE300498C08 /* Car.swift */,
+				CDD25F8F25BAD5CD00498C08 /* StarterCars.swift */,
 			);
 			path = CarCustomiser;
 			sourceTree = "<group>";
@@ -261,6 +268,8 @@
 			files = (
 				CDD25F5B25BA0C7800498C08 /* ContentView.swift in Sources */,
 				CDD25F5925BA0C7800498C08 /* CarCustomiserApp.swift in Sources */,
+				CDD25F9025BAD5CD00498C08 /* StarterCars.swift in Sources */,
+				CDD25F8725BA0EE300498C08 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD25F8B25BA0F7900498C08 /* Car.swift in Sources */,
 				CDD25F6B25BA0C7A00498C08 /* CarCustomiserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
